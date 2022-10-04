@@ -26,7 +26,7 @@ function addLinha() {
     const notaAtividade = document.getElementById('inputNotaAtividade');
 
     if (atividades.includes(nomeAtividade.value)) {
-        alert(`Atividade: ${nomeAtividade}, já foi inserida.`)
+        alert(`Atividade: ${nomeAtividade.value}, já foi inserida.`)
     } else {
         let linha = `<tr>`;
         linha += `<td>${nomeAtividade.value}</td>`;
